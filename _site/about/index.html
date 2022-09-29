@@ -1,0 +1,86 @@
+<html>
+
+<style>
+    ul.no-bullets {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+    }
+</style>
+
+<head>
+    <title>About</title>
+    <meta charset='UTF-8'>
+    <meta content='width=device-width, initial-scale=1' name='viewport' />
+
+    <meta name='description' content="Eunki Chung is a MS student at the University of Washington.">
+    <!-- A decent browser will parse this fine:
+         https://webmasters.stackexchange.com/questions/92744. -->
+    <meta name='keywords' content='
+        intro,
+        about,
+    '>
+    <meta name='author' content='Eunki Chung'>
+
+    <link rel='shortcut icon' href='/favicon.png?v=e' />
+    <link href='/css/main.css' rel='stylesheet' />
+
+    <script type='text/x-mathjax-config'>
+MathJax.Hub.Config({
+  jax: ['input/TeX', 'output/HTML-CSS'],
+  tex2jax: {
+    inlineMath: [ ['$', '$'] ],
+    displayMath: [ ['$$', '$$']],
+    processEscapes: true,
+    skipTags: ['script', 'noscript', 'style', 'textarea', 'pre', 'code'],
+    extensions: ['color.js']
+  },
+  messageStyle: 'none',
+  'HTML-CSS': { preferredFont: 'TeX', availableFonts: ['STIX','TeX'] }
+});
+</script>
+
+    <script src='//cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS_HTML' type='text/javascript'></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.11.1/dist/katex.min.css"
+        integrity="sha384-zB1R0rpPzHqg7Kpt0Aljp8JPLqbXI3bhnPWROx27a9N0Ll6ZP/+DiW/UqRcLbRjq" crossorigin="anonymous">
+</head>
+
+<body>
+    <div class='nav'>
+        <ul class='wrap'>
+            <li><a href='/'>Home</a></li>
+            <li><a href='/about'>About</a></li>
+            <li><a href='/blog'>Blog</a></li>
+            <!-- <li><a href='/feed.xml'>RSS</a></li> -->
+        </ul>
+    </div>
+    <div id='landing'>
+        <h2>
+            Eunki Chung
+        </h2>
+        <h4>
+            Hi! I'm a Master of Science student at the University of Washington.
+        </h4>
+        <p>I study Computational Finance and Risk Management.<br>
+            I'm interested in Machine Learning, Quantitative Finance and Decentralized Finance.</p>
+        <h4>
+            Contacts
+        </h4>
+        <ul id='links' class='no-bullets'>
+            <li>
+                <a href='https://www.linkedin.com/in/eunki-chung'>Linkedin</a>
+            </li>
+            <li>
+                <a href='resume.pdf'>Resume</a>
+            </li>
+            <li>
+                <a href='https://www.github.com/Moong1234' target='_blank'>Code</a>
+            </li>
+            <li id='contact'>
+                [givenname]ch@uw.edu
+            </li>
+        </ul>
+    </div>
+</body>
+
+</html>

@@ -1,9 +1,9 @@
 ---
-title: An Example Post
+title: test post
 subtitle: Here is some extra detail about the post.
 layout: default
-date: 2020-06-21
-keywords: blogging, writing
+date: 2022-09-28
+keywords: debug
 published: true
 ---
 
@@ -18,4 +18,3 @@ $$
 Cool!
 
 Testing my own website running in devcontainer
-
