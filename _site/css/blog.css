@@ -257,6 +257,127 @@ h1 {
   margin-top: 0px;
 }
 
+#blog,
+.tag-page {
+  margin-top: 80px;
+  margin-bottom: 100px;
+}
+
+#blog #intro,
+.tag-page #intro {
+  font-size: 14px;
+  font-style: italic;
+  line-height: 1.4em;
+  margin-bottom: 40px;
+}
+
+#blog .quote,
+.tag-page .quote {
+  margin-bottom: 30px;
+}
+
+#blog .quote p,
+.tag-page .quote p {
+  margin-bottom: 5px;
+}
+
+#blog .post-date,
+.tag-page .post-date {
+  text-transform: uppercase;
+  color: rgba(0, 0, 0, 0.7);
+  font-size: 12px;
+  font-weight: bold;
+  margin-top: 4px;
+  margin-bottom: 4px;
+}
+
+#blog .post-title,
+.tag-page .post-title {
+  display: inline-block;
+  font-weight: bold;
+  margin-bottom: 0;
+}
+
+#blog .post-title a,
+.tag-page .post-title a {
+  font-size: 18px;
+  text-decoration: none;
+}
+
+#blog .post-title a:hover,
+.tag-page .post-title a:hover {
+  text-decoration: underline;
+}
+
+#blog .post-subtitle,
+.tag-page .post-subtitle {
+  font-size: 14px;
+  margin-top: 0;
+  margin-bottom: 25px;
+  line-height: 1.5em;
+}
+
+#blog .year,
+.tag-page .year {
+  font-size: 18px;
+  position: relative;
+  right: 100px;
+  color: rgba(0, 0, 0, 0.5);
+  width: 100px;
+  margin-bottom: -24px;
+}
+
+#blog #y2017.year,
+.tag-page #y2017.year,
+#blog #y2018.year,
+.tag-page #y2018.year {
+  margin-top: 0px;
+}
+
+#blog ul#tag-nav,
+.tag-page ul#tag-nav {
+  padding: 0 0 30px 0;
+  line-height: 1.3em;
+}
+
+#blog ul#tag-nav span,
+.tag-page ul#tag-nav span {
+  font-size: 14px;
+  display: inline-block;
+  padding-right: 15px;
+}
+
+#blog ul#tag-nav li,
+.tag-page ul#tag-nav li {
+  display: inline;
+  padding-right: 10px;
+}
+
+#blog ul#tag-nav li a,
+.tag-page ul#tag-nav li a {
+  font-size: 14px;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+#blog #more,
+.tag-page #more {
+  font-size: 15px;
+  padding-top: 40px;
+}
+
+#blog #more a,
+.tag-page #more a {
+  font-weight: bold;
+}
+
+.tag-page h2 {
+  font-size: 26px;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+  padding-bottom: 1rem;
+  padding-top: 1em;
+}
+
 hr {
   border-top: #ccc;
 }
@@ -266,9 +387,3 @@ hr {
     margin: 0 7px;
   }
 }
-
-/* #landing ul#links li#contact {
-  font-family: courier;
-  margin: 0;
-  padding-top: 5px;
-  } */
