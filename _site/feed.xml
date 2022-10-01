@@ -1,24 +1,16 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.0.1">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2022-10-01T02:24:08+00:00</updated><id>http://localhost:4000/feed.xml</id><entry><title type="html">My Fisrt Post</title><link href="http://localhost:4000/blog/2022/09/30/my-first-post/" rel="alternate" type="text/html" title="My Fisrt Post" /><published>2022-09-30T00:00:00+00:00</published><updated>2022-09-30T00:00:00+00:00</updated><id>http://localhost:4000/blog/2022/09/30/my-first-post</id><content type="html" xml:base="http://localhost:4000/blog/2022/09/30/my-first-post/">&lt;h4 id=&quot;tags-blogging-writing&quot;&gt;tags: &lt;code class=&quot;highlighter-rouge&quot;&gt;blogging&lt;/code&gt;, &lt;code class=&quot;highlighter-rouge&quot;&gt;writing&lt;/code&gt;&lt;/h4&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.0.1">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2022-10-01T04:18:16+00:00</updated><id>http://localhost:4000/feed.xml</id><entry><title type="html">My First Post</title><link href="http://localhost:4000/blog/2022/09/30/my-first-post/" rel="alternate" type="text/html" title="My First Post" /><published>2022-09-30T00:00:00+00:00</published><updated>2022-09-30T00:00:00+00:00</updated><id>http://localhost:4000/blog/2022/09/30/my-first-post</id><content type="html" xml:base="http://localhost:4000/blog/2022/09/30/my-first-post/">&lt;h4 id=&quot;tags-blogging-writing&quot;&gt;tags: &lt;code class=&quot;highlighter-rouge&quot;&gt;blogging&lt;/code&gt;, &lt;code class=&quot;highlighter-rouge&quot;&gt;writing&lt;/code&gt;&lt;/h4&gt;
 
-&lt;p&gt;A couple of weeks ago, I came across the &lt;a href=&quot;https://gregorygundersen.com/blog/&quot;&gt;research blog&lt;/a&gt; of Gregory Gundersen. Gregory Gundersen is a quantitative researcher in New York.&lt;/p&gt;
-
-&lt;p&gt;It was quite an exciting experience to see someone’s technical blog whose interest is very similar. Not just because of the topics he addresses, I was captivated by his remarkable way of elaborating mathematical concepts and translating intuitions into plain words. If anyone reads this post, I strongly recommend seeing his &lt;a href=&quot;https://gregorygundersen.com&quot;&gt;website&lt;/a&gt;. It’s amazing.&lt;/p&gt;
+&lt;p&gt;A couple of weeks ago, I came across the &lt;a href=&quot;https://gregorygundersen.com/blog/&quot;&gt;research blog&lt;/a&gt; of Gregory Gundersen. Gregory Gundersen is a quantitative researcher in New York. It was quite an exciting experience to see someone’s technical blog whose interest is very similar. Not just because of the topics he addresses, I was captivated by his remarkable way of elaborating mathematical concepts and translating intuitions into plain words. If anyone reads this post, I strongly recommend seeing his &lt;a href=&quot;https://gregorygundersen.com&quot;&gt;website&lt;/a&gt;. It’s amazing.&lt;/p&gt;
 
 &lt;p&gt;Then I got curious about how he could manage to continuously create research posts through the arduous daily life of pursuing his Phd. Surprisingly, I could find his motivations and purpose for doing a research blog. You can see the whole story of it in his &lt;a href=&quot;https://gregorygundersen.com/blog/2020/01/12/why-research-blog/&quot;&gt;post&lt;/a&gt;.&lt;/p&gt;
 
 &lt;p&gt;But long story short,&lt;/p&gt;
 
 &lt;blockquote&gt;
-  &lt;p&gt;I learned very early the difference between knowing the name of something and knowing something.
+  &lt;p&gt;I learned very early the difference between knowing the name of something and knowing something. 
 &lt;strong&gt;&lt;em&gt;Richard Feynman&lt;/em&gt;&lt;/strong&gt;&lt;/p&gt;
 &lt;/blockquote&gt;
 
-&lt;p&gt;This quote was from the top of the front page of Gregory Gundersen’s blog, and this is the shortest line I’ve ever seen, clearly explains the reason for doing a research blog.&lt;/p&gt;
-
-&lt;p&gt;I have seen plenty of blogs managed by talented people worldwide. So I knew it was a meaningful thing to do. Sometimes I get help from it by solving technical issues that irritate me all day or by clarifying the confusing concepts I’m trying to understand.&lt;/p&gt;
-
-&lt;p&gt;But hereby, I confess, I’m not the kind of person who can invest a significant portion of one’s time in writing only to explain something he already knows for community contribution.&lt;/p&gt;
-
-&lt;p&gt;The reason I started this blog is just the opposite. I write to understand what I’m studying. I write to digest what I’ve learned and derive the true meaning of it. This is the easiest way I have found to understand something and prove that you know something.&lt;/p&gt;
+&lt;p&gt;This quote was from the top of the front page of Gregory Gundersen’s blog, and this is the shortest line I’ve ever seen, clearly explains the reason for doing a research blog. At the beginning of my Master’s program, I started this blog as Gregory Gundersen did. I hope this deepens my knowledge and keeps me on track. I believe this is the simplest way to learn something and prove that you know it.&lt;/p&gt;
 
 &lt;p&gt;So, Let’s get started.&lt;/p&gt;</content><author><name></name></author><summary type="html">tags: blogging, writing</summary></entry></feed>
