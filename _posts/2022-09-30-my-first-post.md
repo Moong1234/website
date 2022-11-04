@@ -5,7 +5,7 @@ layout: default
 date: 2022-09-30
 keywords: blogging, writing
 summary: I believe this is the simplest way I've found to understand something and prove that you know something.
-published: true
+published: false
 ---
 #### tags: `blogging`, `writing`
 
