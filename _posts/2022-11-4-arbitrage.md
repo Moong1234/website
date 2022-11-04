@@ -10,7 +10,7 @@ published: true
 #### tags: `finance`, `mathematics`
 
 # What is arbitrage?
-We say there's an arbitrage if we can take a positive return without taking any risk by exploiting some market condition. We can define this notion in mathematical expression as follows.  
+We say there's an arbitrage if we can take some positive return without taking any risk by exploiting some market condition. We can define this notion in mathematical expression as follows.  
   
 ### Definition (Arbitrage)
 For a portfolio that has value of $X_t$ at time $t \geq 0$,
