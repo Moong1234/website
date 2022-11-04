@@ -14,7 +14,7 @@ We say there's an arbitrage if we can take some positive return without taking a
   
 ### Definition (Arbitrage)
 For a portfolio that has value of $X_t$ at time $t \geq 0$,
-There's an arbitrage if $\exists T > 0$ such that the following three conditions hold,
+there's an arbitrage if $\exists T > 0$ such that the following three conditions hold,
 
 {% katexmm %}
 $$
