@@ -65,3 +65,6 @@ Since we know $\mathbb{\tilde{P}}(X_T \geq 0) = 1$, X is not an arbitrage if and
 However, the equivalent probability measures should agree on all events that occur with probability 1.  
 
 Since we have $\mathbb{P}(X_T > 0) > 0 \iff \mathbb{P}(X_T = 0) \neq 1$, there is a contradiction.
+
+# References 
+{% bibliography --file 2022-11-4-arbitrage %}
