@@ -155,7 +155,7 @@ In most cases, we don't explicitly calculate the sample variance. Instead, we ca
 
 ### Numpy
 Numpy has the [`np.var`](https://numpy.org/doc/stable/reference/generated/numpy.var.html) method to calculate the variance of a given input. `np.var` returns the uncorrected variance, which is divided by $n$ unless you specify `ddof` argument. To get an unbiased sample variance, you have to add `ddof=1`. The `np.var` will return the result divided by `n-ddof`.
-```{python}
+```python
 import numpy as np
 x = np.array([1,2,3])
 np.var(x) # Divide by n where n = len(x)
@@ -164,7 +164,7 @@ np.var(x, ddof=1) # Divide by (n-1)
 
 ### Pandas
 Pandas has a method in its DataFrame class, [`pd.DataFrame.var`](https://pandas.pydata.org/docs/reference/api/pandas.DataFrame.var.html). Unlike the `np.var`, `pd.DataFrame.var` returns the corrected sample variance with the denominator of $(n-1)$. This can also be changed by specifying the `ddof` argument as in `np.var`.
-```{python}
+```python
 import pandas as pd
 x = pd.DataFrame([1,2,3])
 x.var() # Divide by (n-1)
@@ -177,7 +177,7 @@ Standard function [`var`](https://www.rdocumentation.org/packages/cmvnorm/versio
 >These functions use $n−1$ on the denominator purely for consistency with `stats::var()` (for the record, I disagree with the rationale for $n−1$).
 >-R Documentation-
 
-```{R}
+```R
 x <- rnorm(10)
 n <- len(x)
 var(x) # Divide by (n-1)

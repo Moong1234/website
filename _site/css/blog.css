@@ -163,6 +163,24 @@ h1 {
   line-height: 0;
 }
 
+.article pre {
+  display: block;
+  background: rgb(255, 240, 240);
+  border: solid;
+  border-width: 12px;
+  border-radius: 3px;
+  border-color: rgb(255, 240, 240);
+}
+
+.article code {
+  border: solid;
+  border-radius: 3px;
+  border-left-width: 3px;
+  border-right-width: 3px;
+  border-color: rgb(255, 240, 240);
+  background: rgb(255, 240, 240);
+}
+
 .article div.highlight {
   border-top: 1px solid rgba(0, 0, 0, 0.2);
   border-bottom: 1px solid rgba(0, 0, 0, 0.2);
