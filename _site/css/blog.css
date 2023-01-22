@@ -128,6 +128,21 @@ h1 {
   margin-bottom: 50px;
 }
 
+.article code {
+  display: code;
+  border-radius: 3px;
+  background-color: rgb(255, 240, 240);
+  padding: 2px;
+}
+
+
+.article pre {
+  display: block;
+  border-radius: 3px;
+  background-color: rgb(255, 240, 240);
+  padding: 12px;
+}
+
 .article blockquote {
   margin: 0;
   padding: 0 1em;
@@ -161,24 +176,6 @@ h1 {
 
 .article .footnote {
   line-height: 0;
-}
-
-.article pre {
-  display: block;
-  background: rgb(255, 240, 240);
-  border: solid;
-  border-width: 12px;
-  border-radius: 3px;
-  border-color: rgb(255, 240, 240);
-}
-
-.article code {
-  border: solid;
-  border-radius: 3px;
-  border-left-width: 3px;
-  border-right-width: 3px;
-  border-color: rgb(255, 240, 240);
-  background: rgb(255, 240, 240);
 }
 
 .article div.highlight {

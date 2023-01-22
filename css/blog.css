@@ -128,6 +128,21 @@ h1 {
   margin-bottom: 50px;
 }
 
+.article code {
+  display: code;
+  border-radius: 3px;
+  background-color: rgb(255, 240, 240);
+  padding: 2px;
+}
+
+
+.article pre {
+  display: block;
+  border-radius: 3px;
+  background-color: rgb(255, 240, 240);
+  padding: 12px;
+}
+
 .article blockquote {
   margin: 0;
   padding: 0 1em;
@@ -142,11 +157,11 @@ h1 {
   padding-top: 1em;
 }
 
-/* .article .figure {
+.article .figure {
   border-top: 1px solid hsla(0, 0%, 0%, 0.2);
   border-bottom: 1px solid hsla(0, 0%, 0%, 0.2);
   padding: 20px 0;
-} */
+}
 
 .article .figure .caption {
   padding-top: 15px;
@@ -163,12 +178,12 @@ h1 {
   line-height: 0;
 }
 
-/* .article div.highlight {
+.article div.highlight {
   border-top: 1px solid rgba(0, 0, 0, 0.2);
   border-bottom: 1px solid rgba(0, 0, 0, 0.2);
   font-size: 13px;
   line-height: 1.3em;
-} */
+}
 
 .article ul {
   padding: 0 15px;
