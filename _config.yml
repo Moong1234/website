@@ -1,7 +1,7 @@
 highlighter: rouge
 permalink: /blog/:year/:month/:day/:title/
 environment: prod
-url: "https://eunki.xyz"  # Sitemap base URL.
+url: "https://eunkichung.netlify.app"  # Sitemap base URL.
 plugins:
   - jekyll-scholar
   - jekyll-sitemap
