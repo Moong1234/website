@@ -15,7 +15,7 @@ published: true
 The Monte Carlo method is a computational method that approximates the target value by repetitive random sampling. The goal of the method is to evaluate a function $g(X)$ where $X$ is some random quantity. One naive approach is generating random samples, $X_1, X_2, ... X_n$, from computer simulation using pseudo-random number generation, and taking the average of evaluated $g(X_i)$. That is,
 {% katexmm %}
 $$
-E[g(X)] \approx \frac{1}{n} \sum_{i=1}^{n} X_i
+E[g(X)] \approx \frac{1}{n} \sum_{i=1}^{n} g(X_i)
 $$
 {% endkatexmm %}
 This is called the direct sampling method and is indeed powerful in many
@@ -27,7 +27,7 @@ analytical solution of this problem is not zero. And also, notice that the
 direct estimation is essentially just counting the number of samples greater
 than 30 and calculating the frequency of that event. 
 
-Fortunately, we can easily generate standard normal samples using the Box-Muller algorithm, but it is almost impossible to get a sample greater than 30. Our direct MC estimate will indicate 0 until we get a single observation greater than 30, which will require a tremendous amount of samples unless we are very lucky. Even though we observe a desired sample with a meager chance, the variance of the estimation, hence the efficiency of the method, would still be poor.
+Fortunately, we can easily generate standard normal samples using the Box-Muller algorithm, but it is almost impossible to get a sample greater than 30. Our direct MC estimate will indicate 0 until we get a single observation greater than 30, which will require a tremendous amount of samples unless we are very lucky. Even if we observe a desired sample with a meager chance, the variance of the estimation, hence the efficiency of the method, would still be poor.
 
 # Importance Sampling
 ## Univariate case
